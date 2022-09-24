@@ -53,6 +53,7 @@ a {
     align-items: center;
     background-color: white;
     z-index: 100;
+    margin-bottom: 2%;
 }
 
 #homepage-link {
