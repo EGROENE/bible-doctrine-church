@@ -108,6 +108,16 @@ a {
     transition: 0.3s;
 }
 
+.page-header {
+    font-size: var(--size-40);
+    color: var(--theme-color-one);
+}
+
+.page-subheader {
+    font-size: 32px;
+    color: var(--theme-color-two);
+}
+
 footer {
     text-align: center;
     margin-top: var(--size-16);
