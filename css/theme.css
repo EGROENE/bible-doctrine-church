@@ -46,7 +46,6 @@ a {
 }
 
 #universal-pg-header {
-    display: flex;
     border-bottom: var(--size-4) solid var(--theme-color-three);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -54,11 +53,11 @@ a {
     background-color: white;
     z-index: 100;
     margin-bottom: 2%;
+    flex-direction: row-reverse;
 }
 
 #homepage-link {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
