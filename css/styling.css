@@ -1,0 +1,24 @@
+#homepage-1 {
+    background: url(../assets/images/building.jpg);
+    background-position-y: 31%;
+    padding: 7%;
+    text-align: center;
+}
+
+#homepage-1 header {
+    font-size: var(--size-40);
+}
+
+#homepage-1 div {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2% 16%;
+}
+
+#homepage-1 div > * {
+    color: white;
+    margin: 3% 0;
+}
+
+#homepage-1 div header {
+    font-weight: 700;
+}
