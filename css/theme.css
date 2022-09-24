@@ -118,6 +118,11 @@ a {
     color: var(--theme-color-two);
 }
 
+.page-body-container {
+    display: grid;
+    row-gap: var(--size-24);
+}
+
 footer {
     text-align: center;
     margin-top: var(--size-16);
