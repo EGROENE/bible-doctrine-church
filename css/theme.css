@@ -1,6 +1,109 @@
+/* DEFAULT STYLES & STYLING OF UNIVERSAL ELEMENTS ARE DEFINED IN THIS DOCUMENT */
 :root {
     --theme-color-one: #155E63;
     --theme-color-two: #61B496;
     --theme-color-three: #d0eae1;
-    --default-font: 'Open Sans', sans-serif;
+    --primary-font: 'Open Sans', sans-serif;
+    --size-4: 0.25rem;
+    --size-8: 0.5rem;
+    --size-12: 0.75rem;
+    --size-16: 1rem;
+    --size-20: 1.25rem;
+    --size-24: 1.5rem;
+    --size-32: 2rem;
+    --size-40: 2.5rem;
+    --size-48: 3rem;
+    --size-56: 3.5rem;
+    --size-64: 4rem;
+    --bg: white;
+    --default-text-color: black;
+    --default-text-color-reverse: white;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: var(--primary-font);
+    font-size: var(--size-24);
+}
+
+h1,
+h2,
+header,
+p {
+    font-family: var(--primary-font);
+    color: var(--default-text-color);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+[data-theme="dark"] {
+    --bg: black;
+    --default-text-color: white;
+    --default-text-color-reverse: black;
+}
+
+#universal-pg-header {
+    display: flex;
+    border-bottom: var(--size-4) solid var(--theme-color-three);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: white;
+    z-index: 100;
+}
+
+#homepage-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#homepage-link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#universal-pg-header img {
+    width: 30%;
+}
+
+#universal-pg-header h1 {
+    color: var(--theme-color-one);
+}
+
+#universal-pg-header h2 {
+    color: var(--theme-color-two);
+}
+
+#universal-pg-header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#universal-pg-header ul li {
+    margin-right: var(--size-40);
+}
+
+#universal-pg-header ul li a {
+    color: var(--theme-color-one);
+    padding-bottom: var(--size-8);
+    border-bottom: 4px solid transparent;
+}
+
+#universal-pg-header ul li a:hover {
+    color: var(--theme-color-two);
+    border-bottom: 4px solid var(--theme-color-two);
+    transition: 0.3s;
 }
