@@ -107,3 +107,13 @@ a {
     border-bottom: 4px solid var(--theme-color-two);
     transition: 0.3s;
 }
+
+footer {
+    text-align: center;
+    margin-top: var(--size-16);
+}
+
+footer p {
+    color: gray;
+    font-size: var(--size-16);
+}
