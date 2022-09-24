@@ -39,8 +39,30 @@
     justify-content: space-evenly;
 }
 
-#about-1 header {
-    font-size: var(--size-40);
-    color: var(--theme-color-one);
+#about-2 .page-header {
+    text-align: center;
+}
+
+.pastor-bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pastor-bio img {
+    border: 8px solid var(--theme-color-three);
+}
+
+.pastor-bio div {
+    padding: 7%;
+}
+
+.pastor-bio div p {
+    text-align: right;
+    line-height: var(--size-40);
+}
+
+#about-2 header {
+    text-align: right;
 }
 /* END about.html STYLING */
