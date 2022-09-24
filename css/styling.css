@@ -1,3 +1,4 @@
+/* START index.html STYLING */
 #homepage-1 {
     background: url(../assets/images/building.jpg);
     background-position-y: 31%;
@@ -22,3 +23,24 @@
 #homepage-1 div header {
     font-weight: 700;
 }
+/* END index.html STYLING */
+
+/* START about.html STYLING */
+#about-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--size-16) 0;
+}
+
+#about-1-texts {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#about-1 header {
+    font-size: var(--size-40);
+    color: var(--theme-color-one);
+}
+/* END about.html STYLING */
