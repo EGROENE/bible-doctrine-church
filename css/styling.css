@@ -26,6 +26,22 @@
 /* END index.html STYLING */
 
 /* START about.html STYLING */
+#about-page-nav ul {
+    justify-content: center;
+}
+
+#about-page-nav ul li a {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+#about-page-nav ul li a:hover {
+    padding-bottom: 0;
+    border-bottom: none;
+    color: var(--theme-color-two);
+    cursor: pointer;
+}
+
 #about-1 {
     display: flex;
     justify-content: space-around;
