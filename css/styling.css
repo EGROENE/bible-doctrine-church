@@ -82,19 +82,35 @@
     text-align: right;
 }
 
+#about-3 {
+    text-align: center;
+}
+
+.deacons-container {
+    row-gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.deacons-container div header {
+    font-weight: 700;
+}
+
 #about-3,
-#about-4 {
+#about-4,
+#about-5 {
     text-align: center;
     padding: 0 var(--size-64);
 }
 
-#about-3 a,
-#about-4 a {
+#about-4 a,
+#about-5 a {
     color: var(--theme-color-two);
 }
 
-#about-3 a:hover,
-#about-4 a:hover {
+#about-4 a:hover,
+#about-5 a:hover {
     color: var(--theme-color-one);
 }
 /* END about.html STYLING */
