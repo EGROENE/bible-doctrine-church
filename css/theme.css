@@ -95,7 +95,7 @@ a:hover {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
 }
 
@@ -108,12 +108,14 @@ a:hover {
 #about-page-nav ul li a {
     color: var(--theme-color-one);
     padding-bottom: var(--size-8);
+    border-bottom: 4px solid transparent;
 }
 
 #universal-pg-header ul li a:hover,
 #about-page-nav ul li a:hover {
     color: var(--theme-color-two);
     transition: 0.3s;
+    border-bottom: 4px solid var(--theme-color-two);
 }
 
 .page-header {
