@@ -29,7 +29,9 @@ body {
 h1,
 h2,
 header,
-p {
+p,
+strong,
+i {
     font-family: var(--primary-font);
     color: var(--default-text-color);
     margin: 0;
@@ -37,6 +39,10 @@ p {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 [data-theme="dark"] {
