@@ -82,17 +82,20 @@
     text-align: right;
 }
 
-#about-3 {
+#about-3,
+#about-4 {
     text-align: center;
     padding: 0 var(--size-64);
 }
 
-#about-3 a {
-    color: var(--theme-color-one);
+#about-3 a,
+#about-4 a {
+    color: var(--theme-color-two);
 }
 
-#about-3 a:hover {
-    color: var(--theme-color-two);
+#about-3 a:hover,
+#about-4 a:hover {
+    color: var(--theme-color-one);
 }
 /* END about.html STYLING */
 
