@@ -104,15 +104,18 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin: 0 var(--size-56)
 }
 
 .contact-one {
     display: flex;
     flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
 }
 
 .contact-page-social-icons-container {
-    margin: 7% 0 7% 0;
+    margin: 7% 0 0 0;
 }
 
 .contact-page-social-icons-container a i {
@@ -128,7 +131,8 @@
     color: var(--default-text-color);
 }
 
-.contact-container header span a {
+.contact-container header span a,
+.contact-container header span {
     color: var(--theme-color-two);
 }
 
