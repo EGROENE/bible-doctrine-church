@@ -78,6 +78,10 @@
         margin: var(--size-16) 0;
     }
 
+    #about-1 iframe {
+        width: 90%;
+    }
+
     .pastor-bio {
         flex-direction: column;
     }
@@ -199,10 +203,6 @@
     /* END index.html STYLING */
 
     /* START about.html STYLING */
-    #about-1 iframe {
-        width: 90%;
-    }
-
     #deacons-container {
         display: flex;
         flex-direction: column;
