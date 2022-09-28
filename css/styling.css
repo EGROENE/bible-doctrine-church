@@ -55,6 +55,10 @@
     justify-content: space-evenly;
 }
 
+#about-1-texts header {
+    text-align: left;
+}
+
 #about-2 .page-header {
     text-align: center;
 }
@@ -203,3 +207,47 @@ form button:hover {
     color: var(--default-text-color);
 }
 /* END contact.html STYLING */
+
+/* START resources.html STYLING */
+#resources-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 48px;
+}
+
+#resources-1 a {
+    background-color: var(--theme-color-three);
+    padding: 24px;
+    text-align: center;
+    color: var(--default-text-color);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#resources-1 a:hover {
+    opacity: 0.8;
+}
+
+#resources-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#resources-2 .page-header {
+    text-align: center;
+}
+
+#resources-2 div:last-child {
+    margin: 0;
+}
+
+#resources-2 a {
+    color: var(--default-text-color);
+}
+
+#jim-myers-sites a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* END resources.html STYLING */
