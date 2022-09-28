@@ -122,6 +122,7 @@ a:hover {
     font-size: var(--size-40);
     color: var(--theme-color-one);
     text-align: center;
+    margin-bottom: var(--size-24);
 }
 
 .page-subheader {
