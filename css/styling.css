@@ -90,14 +90,14 @@
     text-align: center;
 }
 
-.deacons-container {
+#deacons-container {
     row-gap: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
 
-.deacons-container div header {
+#deacons-container div header {
     font-weight: 700;
 }
 
