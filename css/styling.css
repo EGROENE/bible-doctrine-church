@@ -59,6 +59,11 @@
     text-align: left;
 }
 
+#about-1 iframe {
+    width: 36%;
+    height: 100%; 
+}
+
 #about-2 .page-header {
     text-align: center;
 }
