@@ -121,6 +121,7 @@ a:hover {
 .page-header {
     font-size: var(--size-40);
     color: var(--theme-color-one);
+    text-align: center;
 }
 
 .page-subheader {
