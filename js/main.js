@@ -1,3 +1,4 @@
+// START JS FOR DEFAULT ITEMS
 // Populate homepage link in header of all docs in pages/
 const universalPgHeader = document.getElementById('universal-pg-header');
 const popHomepageLinkOfDocsInPages = () => {
@@ -12,6 +13,15 @@ const popHomepageLinkOfDocsInPages = () => {
     universalPgHeader.style.display = 'flex';
 }
 
+// Functionality to populate footer info on all pages:
+const footers = document.querySelectorAll('footer');
+const popFooter = () => {   
+    for (let footer of footers) {
+        footer.innerHTML += "<p>&copy; 2022, Bible Doctrine Church of West Michigan</p>"
+    }
+}
+// END JS FOR DEFAULT ITEMS
+
 // Functionality to populate .deacons-container on about.html:
 const deaconsInfo = [
     { deaconNameTitle: "Phillip Rewerts, President", deaconPhone: "616-560-3592" },
@@ -22,7 +32,7 @@ const deaconsInfo = [
 ]
 const deaconsContainer = document.getElementById('deacons-container');
 const popDeaconsSection = () => {
-    for (deacon of deaconsInfo) {
+    for (let deacon of deaconsInfo) {
         deaconsContainer.innerHTML += "<div>"
         + "<header>" + deacon.deaconNameTitle + "</header>"
         + "<p>" + deacon.deaconPhone + "</p>"
