@@ -82,6 +82,7 @@ a:hover {
 
 #universal-pg-header h2 {
     color: var(--theme-color-two);
+    font-size: var(--size-32);
 }
 
 #universal-pg-header ul,
