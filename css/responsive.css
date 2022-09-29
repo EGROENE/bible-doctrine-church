@@ -1,12 +1,37 @@
 @media screen and (min-width: 1920px) {
+    /* START DEFAULT STYLING */
+    .page-header {
+        margin: var(--size-48) 0;
+    }
+    /* END DEFAULT STYLING */
+
     /* START index.html STYLING */
     #homepage-1 {
         padding: 9%;
     }
     /* END index.html STYLING */
+
+    /* START resources.html STYLING */
+    #resources-1 {
+        margin: 0 var(--size-40);
+    }
+    /* END resources.html STYLING */
 }
 
+@media screen and (min-width: 1600px) {
+    /* START DEFAULT STYLING */
+    .page-body-container {
+        row-gap: var(--size-64);
+    }
+    /* END DEFAULT STYLING */
+}
 @media screen and (min-width: 1440px) {
+    /* START DEFAULT STYLING */
+    .page-body-container {
+        row-gap: var(--size-64);
+    }
+    /* END DEFAULT STYLING */
+
     /* START index.html STYLING */
     #homepage-1 {
         padding: 8%;
@@ -38,6 +63,12 @@
         padding: 0%;
     }
     /* END index.html STYLING */
+
+    /* START resources.html STYLING */
+    #resources-2 {
+        font-size: smaller;
+    }
+    /* END resources.html STYLING */
 }
 
 @media screen and (max-width: 810px) {
@@ -115,9 +146,30 @@
         margin-top: 5%;
     }
     /* END contact.html STYLING */
+
+    /* START resources.html STYLING */
+    #resources-1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--size-48);
+        margin: 0 var(--size-64);
+    }
+
+    #resources-2 {
+        display: grid;
+        row-gap: var(--size-48);
+        text-align: center;
+    }
+    /* END resources.html STYLING */
 }
 
 @media screen and (max-width: 800px) {
+    /* START DEFAULT STYLING */
+    footer {
+        text-align: center;
+        margin-top: 12%;
+    }
+    /* END DEFAULT STYLING */
+
     /* START index.html STYLING */
     #homepage-1 {
         padding: 14%;
@@ -133,11 +185,20 @@
         margin-top: 13%;
     }
     /* END contact.html STYLING */
+
+    /* START resources.html STYLING */
+    #resources-2 {
+        font-size: xx-large;
+    }
+    /* END resources.html STYLING */
 }
 
 @media screen and (max-width: 768px) {
     /* START DEFAULT STYLING */
-    
+    footer {
+        text-align: center;
+        margin-top: 3%;
+    }
     /* END DEFAULT STYLING */
 
     /* START index.html STYLING */
@@ -274,6 +335,16 @@
         row-gap: 32px;
     }
     /* END contact.html STYLING */
+
+    /* START resources.html STYLING */
+    #resources-1 {
+        margin: 0;
+    }
+
+    #resources-2 {
+        font-size: smaller;
+    }
+    /* END resources.html STYLING */
 }
 
 @media screen and (max-width: 375px) {
@@ -303,4 +374,10 @@
         font-size: var(--size-24);
     }
     /* END index.html STYLING */
+
+    /* START resources.html STYLING */
+    #resources-1 {
+        gap: var(--size-8);
+    }
+    /* END resources.html STYLING */
 }

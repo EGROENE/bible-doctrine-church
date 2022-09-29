@@ -221,7 +221,7 @@ form button:hover {
 #resources-1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 48px;
+    column-gap: var(--size-48);
 }
 
 #resources-1 a {
