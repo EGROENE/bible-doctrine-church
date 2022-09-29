@@ -72,6 +72,10 @@ a:hover {
     opacity: 0.7;
 }
 
+#homepage-link img {
+    width: 21.07%;
+}
+
 #universal-pg-header img {
     width: 30%;
 }

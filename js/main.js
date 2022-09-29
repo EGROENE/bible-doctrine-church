@@ -3,7 +3,7 @@
 const universalPgHeaderHomepage = document.getElementById('universal-pg-header');
 const popHomepageLinkOfHomepage = () => {
     universalPgHeaderHomepage.innerHTML += "<a id='homepage-link' href='./index.html'>"
-    + "<img src='./assets/images/main-logo-2.png' alt='bdc-logo' style='width: 21.07%'>"
+    + "<img src='./assets/images/main-logo-2.png' alt='bdc-logo'>"
     + "<div>"
     + "<h1>Bible Doctrine Church</h1>"
     + "<h2>of West Michigan</h2>"
@@ -17,7 +17,7 @@ const popHomepageLinkOfHomepage = () => {
 const universalPgHeaderPages = document.getElementById('universal-pg-header');
 const popHomepageLinkOfDocsInPages = () => {
     universalPgHeaderPages.innerHTML += "<a id='homepage-link' href='../index.html'>"
-    + "<img src='../assets/images/main-logo-2.png' alt='bdc-logo' style='width: 21.07%'>"
+    + "<img src='../assets/images/main-logo-2.png' alt='bdc-logo'>"
     + "<div>"
     + "<h1>Bible Doctrine Church</h1>"
     + "<h2>of West Michigan</h2>"
